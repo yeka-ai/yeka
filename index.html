@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W野卡 - 数字服务平台</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* Header styles */
+        header {
+            background-color: #fff;
+            padding: 15px 20px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo-circle {
+            width: 24px;
+            height: 24px;
+            background-color: #f74747;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        
+        .logo-text {
+            font-weight: bold;
+            color: #333;
+        }
+        
+        /* Hero section */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #fff;
+            margin-bottom: 30px;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        
+        .hero p {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background-color: #8b5cf6;
+            color: #fff;
+            border: none;
+        }
+        
+        .btn-secondary {
+            background-color: #333;
+            color: #fff;
+            border: none;
+        }
+        
+        .btn:hover {
+            opacity: 0.9;
+        }
+        
+        /* Features section */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 0 20px;
+            max-width: 1200px;
+            margin: 0 auto 50px;
+        }
+        
+        .feature-card {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 25px;
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-card h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .feature-card p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #eee;
+            margin-top: 30px;
+            background-color: #fff;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .features {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="logo-circle"></div>
+            <span class="logo-text">数字指南</span>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <h1>W野卡</h1>
+        <p>一分钟注册，轻松订阅海外线上服务</p>
+        <div class="buttons">
+            <a href="#" class="btn btn-primary">前往官网</a>
+            <a href="#" class="btn btn-secondary">常见问题</a>
+        </div>
+    </section>
+    
+    <div class="features">
+        <div class="feature-card">
+            <h3>注册与开卡</h3>
+            <p>访问野卡官方网站，输入手机号码并开通实名认证，随后选择适合自己的套餐进行开通。平台提供了多种套餐选择，用户可以根据自身需求选择适用的。</p>
+        </div>
+        
+        <div class="feature-card">
+            <h3>充值与支付</h3>
+            <p>支持多种支付方式(USDT转账等方式进行充值，充值后即可使用虚拟信用卡进行在线支付)。在订阅页面填写Wildcard卡片信息，即可轻松完成支付流程。</p>
+        </div>
+        
+        <div class="feature-card">
+            <h3>隐私与管理</h3>
+            <p>用户可以查看Wildcard虚拟信用卡卡号密安全的支付平台数据上，方便日后快速支付。同时，平台提供了完善的个人账号功能，用户可以随时查看交易记录、调整卡片设置等。</p>
+        </div>
+        
+        <div class="feature-card">
+            <h3>便捷的跨境支付</h3>
+            <p>野卡Wildcard 支持多种支付场景，包括OpenAI/ChatGPT、Midjourney、Google Play、Spotify等多个平台。无论是国内还是国际支付渠道均不受限制，都能轻松支付。</p>
+        </div>
+        
+        <div class="feature-card">
+            <h3>安全可靠</h3>
+            <p>Wildcard 采用先进的加密技术，保障用户的支付安全。同时，其虚拟卡片保证双向用户个人信息，统一管理开通。</p>
+        </div>
+        
+        <div class="feature-card">
+            <h3>卡高的增值服务</h3>
+            <p>除了基础的用卡服务，野卡还提供了一系列增值服务，如境外电话、海外手机号、OpenAI API轻松加速等，让更多用户能够轻松应对国际化使用场景。</p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Copyright © yekacard.xiake.pro</p>
+    </footer>
+</body>
+</html>
