@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://yeka-ai.github.io/</loc>
+    <lastmod>2025-04-29</lastmod>  <!-- 请将此日期更新为你最后修改页面的日期 (YYYY-MM-DD格式) -->
+    <changefreq>monthly</changefreq> <!-- 页面内容更新频率 (可选: always, hourly, daily, weekly, monthly, yearly, never) -->
+    <priority>1.0</priority>      <!-- 此页面相对优先级 (0.0 到 1.0) -->
+  </url>
+</urlset>
